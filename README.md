@@ -41,7 +41,7 @@ pytorch-learning/
   - 掌握面向对象继承：`class MyData(Dataset)`
   - 掌握两个魔术方法：`__getitem__(self, idx)` 与 `__len__(self)`
   - 掌握 Python 文件路径操作：`os.path.join`、`os.listdir`
-- [ ] **P7 - P8（`02_tensorboard/`）**：《TensorBoard的使用（一）/（二）》
+- [x] **P7 - P8（`02_tensorboard/`）**：《TensorBoard的使用（一）/（二）》
   - `SummaryWriter` 的 `add_scalar()`（画函数曲线/Loss曲线）与 `add_image()`（看图像输入）
   - 终端启动命令：`tensorboard --logdir=logs`
 - [ ] **P9 - P12（`03_transforms/`）**：《Transforms的使用》与《常见的Transforms》
