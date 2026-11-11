@@ -44,7 +44,7 @@ pytorch-learning/
 - [x] **P7 - P8（`02_tensorboard/`）**：《TensorBoard的使用（一）/（二）》
   - `SummaryWriter` 的 `add_scalar()`（画函数曲线/Loss曲线）与 `add_image()`（看图像输入）
   - 终端启动命令：`tensorboard --logdir=logs`
-- [ ] **P9 - P12（`03_transforms/`）**：《Transforms的使用》与《常见的Transforms》
+- [x] **P9 - P12（`03_transforms/`）**：《Transforms的使用》与《常见的Transforms》
   - 理解 `PIL.Image`、`numpy.ndarray`、`torch.Tensor` 三种图像数据格式的区别与维度顺序（`HWC` vs `CHW`）
   - 掌握 `__call__` 魔术方法（为什么对象可以像函数一样被调用 `trans(img)`）
   - 常用变换：`ToTensor`、`Normalize`、`Resize`、`Compose`、`RandomCrop`
