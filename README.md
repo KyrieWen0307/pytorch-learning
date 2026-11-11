@@ -48,7 +48,7 @@ pytorch-learning/
   - 理解 `PIL.Image`、`numpy.ndarray`、`torch.Tensor` 三种图像数据格式的区别与维度顺序（`HWC` vs `CHW`）
   - 掌握 `__call__` 魔术方法（为什么对象可以像函数一样被调用 `trans(img)`）
   - 常用变换：`ToTensor`、`Normalize`、`Resize`、`Compose`、`RandomCrop`
-- [ ] **P13 - P14（`04_torchvision_dataset/` & `05_dataloader/`）**：《torchvision中的数据集使用》与《DataLoader的使用》
+- [x] **P13 - P14（`04_torchvision_dataset/` & `05_dataloader/`）**：《torchvision中的数据集使用》与《DataLoader的使用》
   - `Dataset` 负责“怎么取单个样本”，`DataLoader` 负责“怎么把样本打包成 Batch 送进模型”
 
 ### 第三阶段：神经网络核心积木 `torch.nn`（P15 - P21）
