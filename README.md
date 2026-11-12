@@ -52,11 +52,11 @@ pytorch-learning/
   - `Dataset` 负责“怎么取单个样本”，`DataLoader` 负责“怎么把样本打包成 Batch 送进模型”
 
 ### 第三阶段：神经网络核心积木 `torch.nn`（P15 - P21）
-- [ ] **P15（`06_nn_module/`）**：《神经网络的基本骨架 - nn.Module的使用》（`__init__` 与 `forward`）
-- [ ] **P16 - P17**：《土堆说卷积操作》（`F.conv2d`）与《神经网络 - 卷积层》（`nn.Conv2d`）
-- [ ] **P18**：《神经网络 - 最大池化的使用》（`nn.MaxPool2d`）与下采样作用
-- [ ] **P19**：《神经网络 - 非线性激活》（`ReLU`、`Sigmoid`）——为什么没有激活函数多层网络就等价于单层线性变换？
-- [ ] **P20 - P21**：《线性层及其他层介绍》（`nn.Linear`、`nn.Flatten`）与《搭建小实战和Sequential的使用》
+- [x] **P15（`06_nn_module/`）**：《神经网络的基本骨架 - nn.Module的使用》（`__init__` 与 `forward`）
+- [x] **P16 - P17**：《土堆说卷积操作》（`F.conv2d`）与《神经网络 - 卷积层》（`nn.Conv2d`）
+- [x] **P18**：《神经网络 - 最大池化的使用》（`nn.MaxPool2d`）与下采样作用
+- [x] **P19**：《神经网络 - 非线性激活》（`ReLU`、`Sigmoid`）——为什么没有激活函数多层网络就等价于单层线性变换？
+- [x] **P20 - P21**：《线性层及其他层介绍》（`nn.Linear`、`nn.Flatten`）与《搭建小实战和Sequential的使用》
 
 ### 第四阶段：训练闭环、模型存取与 GPU 实战（P22 - P31）
 - [ ] **P22 - P23（`07_loss_and_optim/`）**：《损失函数与反向传播》与《优化器》（`zero_grad()`、`backward()`、`step()`）
