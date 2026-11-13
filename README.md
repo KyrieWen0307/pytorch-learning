@@ -60,7 +60,7 @@ pytorch-learning/
 
 ### 第四阶段：训练闭环、模型存取与 GPU 实战（P22 - P31）
 - [x] **P22 - P23（`07_loss_and_optim/`）**：《损失函数与反向传播》与《优化器》（`zero_grad()`、`backward()`、`step()`）
-- [ ] **P24 - P25（`08_model_save_load/`）**：《现有网络模型的使用及修改》与《网络模型的保存与读取》（完整模型 vs `state_dict`）
+- [x] **P24 - P25（`08_model_save_load/`）**：《现有网络模型的使用及修改》与《网络模型的保存与读取》（完整模型 vs `state_dict`）
 - [ ] **P26 - P31（`09_full_training_cifar10/`）**：《完整的模型训练套路（一/二/三）》、《利用GPU训练（一/二）》与《完整的模型验证套路》
   - 完整训练/验证循环编写
   - `model.train()` 与 `model.eval()`、`with torch.no_grad():` 的作用
